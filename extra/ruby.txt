@@ -1,0 +1,45 @@
+loop {coder.practice; break if coder.oh_one?}
+array.map(&:strip).join(' ')
+"hello".gsub(/[aeiou]/, '*')   
+
+chomp
+chop
+strip
+join
+
+
+def mask_article(text, ele)
+  ele.each {|a| text.gsub!(a,strike(a))}
+  text
+end
+
+def strike s
+  "<strike>#{s}</strike>"
+end
+
+empty_hash = Hash.new 
+default_hash = Hash.new(1)
+hackerrank = {"simmy" => 100, "vivmbbs" => 200}
+h.store(key, value)
+h.delete(key)
+select and reject drop_while
+force_encoding(Encoding::UTF_8)
+
+"#{string[0, 4]}#{format('%.2f', (string[4, 5].to_f + string[10, 5].to_f) / 2)}"
+
+https://gist.github.com/Integralist/9994331
+
+power_function = -> (x, z) {
+    (x) ** z
+}
+
+base = gets.to_i
+raise_to_power = power_function.curry.call base
+
+power = gets.to_i
+puts raise_to_power.(power)
+
+require 'prime'
+
+n = gets.to_i
+p Prime.each.lazy.select{|x| x == x.to_s.reverse.to_i}.first(n)
