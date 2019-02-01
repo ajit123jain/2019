@@ -6,17 +6,16 @@ Locate your private key file (HG-PREPRODUCTION.pem). The wizard automatically de
 Your key must not be publicly viewable for SSH to work. Use this command if needed:
 chmod 400 HG-PREPRODUCTION.pem
 Connect to your instance using its Public DNS:
-ssh -i "HG-PREPRODUCTION.pem" ubuntu@52.74.129.154 -p 722
+ssh -i "HG-PREPRODUCTION.pem" ubuntu@52.74.19.154 -p 722
 
 Example:
 
-ssh -i "HG-PREPRODUCTION.pem" ubuntu@52.74.129.154 -p 722
+ssh -i "HG-PREPRODUCTION.pem" ubuntu@52.74.19.154 -p 722
 
 Please note that in most cases the username above will be correct, however, please ensure that you read your AMI usage instructions to ensure that the AMI owner has not changed the default AMI username.
 
 Log into below user:
-su - deployer
-Go@Rails456
+
 
 For Unicorn
 bundle exec unicorn_rails -c /home/deployer/apps/hg_ehr_product/config/unicorn_preproduction.rb -D -E preproduction
