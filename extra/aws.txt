@@ -1,0 +1,57 @@
+Steps to access preproduction server
+
+To access your instance:
+Open an SSH client. 
+Locate your private key file (HG-PREPRODUCTION.pem). The wizard automatically detects the key you used to launch the instance.
+Your key must not be publicly viewable for SSH to work. Use this command if needed:
+chmod 400 HG-PREPRODUCTION.pem
+Connect to your instance using its Public DNS:
+ssh -i "HG-PREPRODUCTION.pem" ubuntu@52.74.129.154 -p 722
+
+Example:
+
+ssh -i "HG-PREPRODUCTION.pem" ubuntu@52.74.129.154 -p 722
+
+Please note that in most cases the username above will be correct, however, please ensure that you read your AMI usage instructions to ensure that the AMI owner has not changed the default AMI username.
+
+Log into below user:
+su - deployer
+Go@Rails456
+
+For Unicorn
+bundle exec unicorn_rails -c /home/deployer/apps/hg_ehr_product/config/unicorn_preproduction.rb -D -E preproduction
+
+For Sidekiq
+bundle exec sidekiq -d -L /home/deployer/apps/hg_ehr_product/log/sidekiq.log -C config/sidekiq.yml -e preproduction -q urgent -c 2
+
+For logs
+tail -f preproduction.log
+tail -1000f  log/sidekiq.log
+
+For all the logs related to unicorn
+cd /var/log/services
+
+For Mongo Shell
+mongo --host primary.pp.db.healthgraph.in:36221
+
+For precompile 
+rake RAILS_ENV=preproduction RAILS_GROUP=assets assets:precompile
+
+
+For Mongo Logs
+cd /db/data/log
+tail -f mongodwt_403.log
+
+
+
+
+
+
+
+STEPS TO ACCESS PREPRODUCTION - > PP - PSR
+
+
+To run the unicorn
+
+cd apps/hg_psr_healthgraph
+bundle exec unicorn_rails -c /home/deployer/apps/hg_psr_product/config/unicorn.rb -D -E preproduction

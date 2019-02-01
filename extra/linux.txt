@@ -1,0 +1,30 @@
+sudo apt-get update
+sudo apt-get install
+sudo apt-get remove
+https://www.lifewire.com/ubuntu-command-line-package-apt-get-2205716
+
+
+Postgres 
+sudo apt-get update
+sudo apt-get install postgresql postgresql-contrib
+
+
+Basics 
+less /etc/passwd or cat /etc/passwd
+
+postgres:x:123:130:PostgreSQL administrator,,,:/var/lib/postgresql:/bin/bash
+
+User name
+Encrypted password (x means that the password is stored in the /etc/shadow file)
+User ID number (UID)
+User’s group ID number (GID)
+Full name of the user (GECOS)
+User home directory
+Login shell (defaults to /bin/bash)
+
+awk -F: '{ print $1}' /etc/passwd  only username 
+getent passwd
+getent passwd | grep jack User Existence
+getent passwd | wc -l   User count
+
+

@@ -1,0 +1,73 @@
+1.New relic
+2.Cloud Watch Training
+3.Unicorn
+4.Nginx 
+ 
+Rails Open Source Projects 
+1.Gitlab 
+2.Discourse
+3.Diaspora  Chat APP FB 
+4.Spree Ecommerce
+5.Refinery CMS  CMS
+6.Self Starter  Crowd Funding 
+7.Errbit 
+8.FAT Free CRM
+9.RedMine 
+10.Kandan
+
+1.Eagerloading and Lazy loading
+ 
+
+
+MemCached :
+
+List of gems 
+1.Better Errors gem
+2.
+
+
+1.Rails
+2.Turbolinks : Easy to load links 
+3.Figaro : Something like YAML
+4.Sidekiq : Background Jobs
+5.Pry  : Rails console
+6.Devise Authentication
+7.Carrier Wave / Paperclip : Image Upload 
+8.CanCanCan (inspired by CanCan) :
+9.Rspec Testing Framework
+10.Ahoy : Website Visit tracking application
+11.doorKeeper :Auhtentication 
+12.OmniAuth :Authentication
+13.Capistrano : Remote Server Automations enable
+14.Sass-rails : Extension for CSS
+15.ActiveModelSerializers : Serilize for API
+16.Shoulda matchers 
+
+
+ 
+Blogs 
+https://blog.feedspot.com/ruby_on_rails_blogs/
+https://reinteractive.com/blog
+https://www.railscarma.com/blog/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

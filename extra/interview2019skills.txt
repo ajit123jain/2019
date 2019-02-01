@@ -1,0 +1,31 @@
+Skills Set: 
+Languages And Broad Parts:
+
+
+Strong CS fundamentals in algorithm design, problem solving, and complexity analysis
+Hands-on experience in analysis, design, coding, and implementation of complex
+Solid understanding of object oriented programming principles
+A good understanding of building distributed systems, microservices, etc
+A decent understanding of Ruby on Rails
+Knowledge of TDD & Continuous Delivery
+Knowledge of relational databases, SQL, ACID and distributed locking
+Exposure to frontend ecosystem
+DevOps skills, Docker, exposure to AWS ecosystem is a plus
+Familiarity with Node/Golang/Java is a bonus
+Familiarity with NoSQL, message brokers. esp. RabbitMQ, Cassandra
+Familiarity with concepts of Event sourcing and CQRS
+Design, develop, test, deploy, maintain and improve software on continuous basis.
+Manage individual project priorities, deadlines and deliverables.
+Collaborate with engineers throughout software development lifecycle to solve complex
+engineering problems.
+Ensure that features are being delivered efficiently and on­time
+Knowledge of SQL, and non-relational (NoSQL) databases
+Thorough understanding of the ROR internals like databases, API, caching, proxies, web
+services, performance, and scalability
+Proficient in Angular version 4, 6
+Experience working with Git, AWS/ Heroku/ Rackspace etc
+Experience interfacing with various Web/Javascript frameworks, SMS gateway
+Should have a good working knowledge of REST, JSON, Web API.
+
+Interview Fundas: means that you have to be highly self-motivated, extremely intelligent, out of the
+box & resourceful thinker, team player, with can-do attitude and high integrity

@@ -1,0 +1,553 @@
+1.Data Structure 
+2.InterView Street 
+3.Dynamic Programming Quesition 
+4.Backtracking and A* search.
+
+Questions:
+Implementation of tries  
+Implementing a message broker  
+write code for K nearest neighbor algorithm
+closed form formula to solution of linear regression;
+questions on strings and arrays   but it should be highly optimized
+DS and algorithms like tree search, sorting, string matching 
+How do you display a tree spirally ?  
+Asked to write code for searching products 
+Questions spanned vast topics ranging from trees to sorting algorithms  
+questions related to hashing, trees, data structures and algorithms  
+Maximumn number of overlapping intervals.  
+Merge n sorted list
+Counting number of nodes at each level of tree
+DSA and Graph Theory
+Find two integers in the BST whose sum is equal to K....Try to solve this problem using two stacks nd not by recursion) 
+Given a binary number, write a code to convert it into gray code.   
+
+Given a map with lot of rooms, each room has doors which are either locked or unlocked, How do you find the easiest path to reach from point A to point B  
+
+
+I like was realted to probability, given 2 empty dice, label their sides, so that the probability of the sum of the two numbers on the dice (when thrown randomly) is equally probable.  
+Label one dice with all the 6 digits - 1,2,3,4,5,6 and the other one with a constant number, say all 1s.
+
+
+
+finding the smallest path between any two nodes in a tree.  
+Finding the alphabetical sequence out of a given dictionary.  
+Finding the minimum cost to completely disconnect your home and enemy's house by cutting the connecting weighted edges in a graph
+.  
+You are in a time when you have a single airstrip on earth. The aeroplanes have a 1 litre capacity which enables them to cover half of the earth's circumference, refueling can be done between planes. Find the minimum number of planes required to cover the full circumference of the earth by starting from and ending at the same airstrip  
+
+ DS, Algorithm, Problem Solving 
+
+
+Write a program to find the maximum difference between two elements of an array such that the greater number always has the greater index.
+
+
+
+Ques. Design a Data Structure SpecialStack that supports all the stack operations like push(), pop(), isEmpty(), isFull() and an additional operation getMin() which should return minimum element from the SpecialStack. All these operations of SpecialStack must be O(1). To implement SpecialStack, you should only use standard Stack data structure and no other data structure like arrays, list, etc.  
+Ans. https://www.geeksforgeeks.org/design-a-stack-that-supports-getmin-in-o1-time-and-o1-extra-space/
+
+
+How to join two sorted linked lists such that the resultant linked list is a sorted list?  
+
+one on graphs and the other was on sortings
+
+Database design and DAO design pattern
+Design patterns and networking.
+GET-POST difference, HTTPS use, Handling delay in response and retries in web service calls  
+median from two arrays  
+
+
+Design and separating Concerns,Trees and Arrays 
+Print all palindromic substrings (should contain only alphabets) in a given sentence.
+Find the total number of ways a person can go from A to B if he can take either 1 step or 2 steps.  
+Find all substrings in a string which has exactly K unique characters.  
+Given a dictionary, find the minimum cost to change a word into another by just changing 1 character at once and all intermediate words being valid words from the dictionary.  
+
+
+
+Puzzle : 
+HR round there were some puzzles and data structure questions.
+Coin weight puzzle. find out which coin bag is heavy.  
+
+
+
+
+
+1.Data Structure: https://www.geeksforgeeks.org/data-structures/
+A.Tree 
+B.stack 
+C.Linked list 
+D.Heap 
+E.Hashing 
+F.Graph
+G.Array 
+H.Binary Seach Tree 
+I.Trie
+
+
+2.Algorithms  https://www.geeksforgeeks.org/fundamentals-of-algorithms/
+A.Back Tracking
+B.Greddy
+C.Dynamic Programming
+D.Strings
+E.Sorting Alogrithms 
+F.LST and MST
+
+
+3.Puzzles : https://www.geeksforgeeks.org/fundamentals-of-algorithms/ 
+
+
+
+4.Questions :
+
+5.HR and Behavioural Problems 
+
+6.Coding Practice 
+
+7.Current Working Questions and Database 
+
+8.System Design and prodcut search algorithms and Realtime search  
+
+
+Stack:
+Stack is a linear data structure which follows a particular order in which the operations are performed. The order may be LIFO(Last In First Out) or FILO(First In Last Out). DFS
+Ques. Design a Data Structure SpecialStack that supports all the stack operations like push(), pop(), isEmpty(), isFull() and an additional operation getMin() which should return minimum element from the SpecialStack. All these operations of SpecialStack must be O(1). To implement SpecialStack, you should only use standard Stack data structure and no other data structure like arrays, list, etc.  
+Ans. https://www.geeksforgeeks.org/design-a-stack-that-supports-getmin-in-o1-time-and-o1-extra-space/
+Create 2 stack and One and Auxilary and keep min in Auxilary stack.
+
+SpecialStack.java
+
+Queue : BFS 
+A Queue is a linear structure which follows a particular order in which the operations are performed. The order is First In First Out (FIFO). A good example of a queue is any queue of consumers for a resource where the consumer that came first is served first. The difference between stacks and queues is in removing. In a stack we remove the item the most recently added; in a queue, we remove the item the least recently added.
+
+When a resource is shared among multiple consumers. Examples include CPU scheduling, Disk Scheduling.
+
+Tree:
+
+
+
+Reading : https://introcs.cs.princeton.edu/java/43stack/
+
+Questions 
+1.Construct a Binary Search Tree from given postorder
+2.
+
+
+BFS : Using Queue and when do pop push adjcent into Queue and maintain a Boolean array for visiting all the nodes.
+DFS : Use Depth first search with stack and push adj and find that node adj and push if not any then pop form the stack.
+Trie: Trie is an efficient information reTrieval data structure  
+Djkstra:Find shortest path from source to all vertices.Greddy algorithms and 
+Prims Algorithms:Minimum spanning tree Using table cost 
+Kruskal Minimum spanning tree: 
+Travel Salesman:
+Binary Heap and priority Queue:
+
+
+
+
+
+
+Required things for you to interview:
+A.Funda mental of Used language java and Ruby on rails
+B.How To Use an IDE for a language 
+C.Being to able write modular code and Design test-cases and function code
+D.Concurrency and distributes problems example
+E.Give past samples of machine coding round questions for that level
+
+
+Data Structures 
+A.Background in having used data structures and algorithms in solving problems in the past
+B.write, search and read patterns experience product search
+C.Time Complexity analysis
+D.Understand the problem and solve on the spot and suggest the solutions and approcach level 
+E.Give past example of problem solving 
+
+
+Trie :
+Trie is an efficient information reTrieval data structure.But Storage Retrival BST M*log(N) but log(m).Tries is a tree that stores strings. Maximum number of children of a node is equal to size of alphabet. Trie supports search, insert and delete operations in O(L) time where L is length of key. With Trie, we can insert and find strings in O(L) time where L represent the length of a single word. This is obviously faster that BST. This is also faster than Hashing because of the ways it is implemented. We do not need to compute any hash function. No collision handling is required (like we do in open addressing and separate chaining).Another advantage of Trie is, we can easily print all words in alphabetical order which is not easily possible with hashing.Wecan efficently Autocomplete with Trie.
+The final conclusion is regarding tries data structure is that they are faster but require huge memory for storing the strings.
+
+But in we need so many node and corresponding thier children too.Ternary Seach tree :Prefix search and Alphbate 
+
+
+Hashing:
+In hashing, we convert key to a small value and the value is used to index data. Hashing supports search, insert and delete operations in O(L) time on average.
+
+BST
+The time complexity of search, insert and delete operations in a self-balancing Binary Search Tree (BST) (like Red-Black Tree, AVL Tree, Splay Tree, etc) is O(L Log n) where n is total number words and L is length of word. The advantage of Self balancing BSTs is that they maintain order which makes operations like minimum, maximum, closest (floor or ceiling) and k-th largest faster. 
+
+Advantage of Hash table over  
+
+
+
+
+Create the notes for the projects that you have worked on and With UI and Design and Fundamental.
+String and array Questions and Ruby and java interview Questions.
+Describe the data structure and Game fundamental
+Security Related and product search in flipkart.
+
+System Design like linkedin and Facebook and Instagram 
+Datamodeling and Internet technologies and Operating System Questions. 
+
+Digital Healthcare System 
+1.From last 1 year working year as a software enginner in this We arund 100+ hospitals So we have lots of data SO manage that we need strategy We are using mongo db for backend and For Fullstak we are using ROR.UI Design as it is B2B product We more Focus on usability and comfortable for the user.We use bootstrap 3.4.In Fundamental for creating a appointment User need to search a patient So what we do there have When new patient is creating We store that data in table and also store some data in another table for Quick search and in that We have fields that required for searching like in product We have products acoording to brands and Type and price.In this storing in UTC format so that we can convert in time zone according to which timezone software is using.
+
+2.Air line database Management System.:
+We used An Postgresql database in this project.So Basically in this A use can find all the flight from a single company like indigo and other.Now He can search flight form a single Source other destination with date and time.Now when User book a ticket we give a pne nuber to the user corresponding to that pnr another table where foreign key is pnr-number so that we find all the visitor's detail.
+End We can get the fare detailsby search the flight for same end-points then also we can for according to flight owner.Now We can filter flight from their Departure time to arrival time also.ilter also like flight is Domestic and international.
+Check fare details according to passenger type children army and old-age person.We show all possibile form one destination to another destination.
+
+3.Search Engine:
+In that We had lots of Data set around 3-4 Gbs.for Indexing I gone through all those files for index one file We read one by one and Remove special character from the files and Now tokenize the line on space now go through all the tokens if token not a Stops words then we Stem that word and check its their in our inverted index or not if not then create hash and put into inverted index a hashmap which having filename and frequency in that file for that word.If Yes then get that hashmap and update its frequency update.And If is has key but not file then add file with 1 frequency.
+Now for searching a keyword check that index is there or not if yes then We go for Query file and check rmeove special character from the query
+and same hashmap for the Query with word and frequency in the query 
+Frequnecy of word in the query * log(total no of file / present of words file count)
+Frequnecy of word in file * log(total no of file / present of words file count) 
+
+4.Projectile: 
+In this user can see the project posted there and and make their team and show their interest in projects.Create profile and show others profiles. 
+In this People  
+5.Online shopping portal:  Any local user use this site He can add items and Brand and prices and offers.User can login and add the items into the cart.Filter items according to types and prices
+
+6.Buddy Chat Android Application: In this User can create profile and see all the users and Send them friend Request.After becoming the friend they can chat one to one and also send messages and images to.
+
+1.Sorting and Stirng and Hashing and Array and Algorithms Question linklist an
+2.Language stack Question froom Java and Ruby on Rails and andrid Security and System Design Quesions
+
+Ruby 
+Java 
+
+String functions in Java
+Java interview Questions and Ruby Interview Questions 
+
+Problems with space and time complexity of ALogrithms an Data Structures 
+Strong technical aptitude and a good knowledge of CS fundamentals
+Hands-on experience working with Databases and Linux platform is a plus
+
+
+Night:
+Syntex and Time Complexity and algorithms  Done 
+Strings and linked lists Questions and Tree and Hashing and Greddy and Backtracing and DP and Sorting = Done
+
+
+Linear Search  O(n) 
+Binary Search  log(n)
+
+Sortings : 
+Bubble Sort : Compare 0 to 1 and Height element in the last 
+Worst Case Time Complexity [ Big-O ]: O(n2)
+Best Case Time Complexity [Big-omega]: O(n)
+Average Time Complexity [Big-theta]: O(n2)
+Space Complexity: O(1)
+
+Insertion Sort
+It is efficient for smaller data sets, but very inefficient for larger lists.
+Insertion Sort is adaptive, that means it reduces its total number of steps if a partially sorted array is provided as input, making it efficient.
+It is better than Selection Sort and Bubble Sort algorithms.
+Its space complexity is less. Like bubble Sort, insertion sort also requires a single additional memory space.
+Worst Case Time Complexity [ Big-O ]: O(n2)
+Best Case Time Complexity [Big-omega]: O(n)
+Average Time Complexity [Big-theta]: O(n2)
+Space Complexity: O(1)
+
+Selection Sort
+Worst Case Time Complexity [ Big-O ]: O(n2)
+Best Case Time Complexity [Big-omega]: O(n2)
+Average Time Complexity [Big-theta]: O(n2)
+Space Complexity: O(1)
+
+Quick Sort: Take a Pivot with this left smaller and rigth is greater than.
+Worst Case Time Complexity [ Big-O ]: O(n2)
+Best Case Time Complexity [Big-omega]: O(n*log n)
+Average Time Complexity [Big-theta]: O(n*log n)
+Space Complexity: O(n*log n)
+
+Merge Sort
+Worst Case Time Complexity [ Big-O ]: O(n*log n)
+Best Case Time Complexity [Big-omega]: O(n*log n)
+Average Time Complexity [Big-theta]: O(n*log n)
+Space Complexity: O(n)           
+
+Heap Sort
+Worst Case Time Complexity: O(n*log n)
+Best Case Time Complexity: O(n*log n)
+Average Time Complexity: O(n*log n)
+Space Complexity : O(1)
+
+
+Create small functions to modularize the code.
+
+DP Questions : Cutting Rod Problems
+String : missing-characters-make-string-pangram ,get-first-letter-word-string-using-regex-java,Anagram and Panagram
+
+
+Morning :
+Java Interview questions and ruby interview Questions:
+Databases fundamental and Linux basics commands
+CswithAndroid Datastructure Questions and list down all the data strcture 
+
+arry.compact
+
+
+ROR Interview Questions 
+https://blog.interviewmocha.com/ruby-on-rails-interview-questions-for-experienced
+https://career.guru99.com/top-34-ruby-on-rail-interview-questions/
+
+20 Java Interview Questions
+10 String methods 
+5  RUby methods 
+10 Project
+20 Android Used Data Structure 
+
+Things to build good app
+Pundit Gem  => this gem is use for create the policy and make your code dry and fast
+Paranoia Gem  => this gem is used for soft delete
+Vagrant => this is use to crate the another environment in VM for every code.
+  4. Generate your legal requirement and pricing etc 
+
+Use Sweet alert for modal and another POP functions
+Rails red Gem is use to check the all dataTable structure and reactions
+Phonelib gem, This Gem is used to validate the phone number for all countries and other features it is also have
+better_errors is the Gem that is used for the good error messages. It is really helpful in development. 
+Rails composer is used to setup your app in integrated way.  This can also integrate you app with javascript and babel 
+Use strategy like you have the multiple condition in feature your case can increase so you need to make the methods fro 
+Rails statergies: https://lorefnon.me/2015/01/03/leveraging-strategy-pattern-in-rails.html 
+Use citext to avoid the case sensitive issue in your email and user_name. You can use it in your rails migration during create user: => url => https://nandovieira.com/using-postgresql-and-jsonb-with-ruby-on-rails/ 
+EMAIL rgex => /\A[^@\s]+@[^@\s]+\z/
+Paranoia Gem :
+When you use this gem :- 
+In association you need to migrate the new columns delete_at and add index to deleted_at 
+Make sure use the documentation step
+For the marketing tools we can use this GEM. It is helpful to set all the marketing like Facebook pixels and google tag manager.  https://github.com/railslove/rack-tracker 
+Redux in react: https://teamtreehouse.com/library/building-applications-with-react-and-redux
+https://rubyonrails.org/
+Sintra best examples: https://x-team.com/blog/how-to-create-a-ruby-api-with-sinatra/ 
+
+
+Integrate React with Rails :
+https://medium.com/@hpux/rails-5-1-loves-javascript-a1d84d5318b
+Top 10 mistake by rails developer: 
+https://www.toptal.com/ruby-on-rails/top-10-mistakes-that-rails-programmers-make
+React Redux: https://codeburst.io/redux-a-crud-example-abb834d763c9
+
+
+React Redux creator blog: => https://overreacted.io/
+React redux: https://www.valentinog.com/blog/react-redux-tutorial-beginners/#React_Redux_tutorial_react-redux/ 
+Rails + React + redux Crud App: https://www.thegreatcodeadventure.com/building-a-simple-crud-app-with-react-redux-part-1/#table-of-contents 
+
+
+
+
+JavaScript Desgin and patterns : https://addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript 
+
+Functional programming in js: https://www.manning.com/books/functional-programming-in-javascript/ 
+
+Best Course to learn Redux : https://learnredux.com/ 
+
+Best paid course to learn React : https://reactforbeginners.com/ 
+
+
+
+Editor Config: - 
+
+	1. Use .editorconfig file in your code to set editor settings. It will help you maintain the code structure.
+
+
+
+
+
+
+
+
+
+To write the good code:
+
+Make sure your controller is not fat. 
+Modularise the code by using model and service
+Maintain all login inside the services.
+Make sure write the some required login in method
+Actual work of the controller is to maintain the request and send the data to frontend
+Use Policy to check the conditions and validate the data or user
+Make sure you are follow the Url rules. Your urls must be simple and logical sort.
+Nameing conventations must be good because its a good way to write the understandable code. 
+
+A.Baisc Array based Questions - 3  Done 
+B.Basic DP Questions with code- 3  Done 
+C.Basic String based Questions 5 With code - 5 Done 
+D.Linked List Questions with algo - 5   1 Hours   
+E.Database Good Query 10 in Sql and 10 Mongo - 10 30 Mintes  Done
+F.Ruby Class How to run in proper Way and methods : 30 minutes  Done 
+G.Ruby short cuts for Array and other hashes data structure: 15 Minutes Done
+H.System Design like Vymo and Linkedin and facebook : 30 Minutes Bus 
+I.Ruby Gems and Usablility : 
+
+
+A.Baisc Array based Questions - 3
+1.2nd Largest element in array :
+2.How to find the missing number in integer array of 1 to 100?
+3.Write a program to find intersection of two sorted arrays in Java?
+4.How to find all pairs on integer array whose sum is equal to given number?
+
+B.Basic DP Questions with code- 3
+1.Rod Cutting problem and find mzx profit.Using Recursion
+2.Find optimal cost to binary Seacrh tree.
+3.0-1 Knoapsack Problem
+4.find-n-digit-binary-strings-without-consecutive-1s/
+
+C.Basic String based Questions 5 With code - 5
+1.How to check 2 Strings are anagram or not: Where Frequency of characters are same
+2.Regular Expression in Java to check numbers in String
+3.How to find all permutations of String?
+4.How to check if String is Palindrome?
+
+F.Ruby class How to run in proper Way and methods :
+  
+
+
+1.How to find the missing number in integer array of 1 to 100?
+Ans. Calculate the sum and compare with expected sum
+2.How to find duplicate number on Integer array in Java
+Ans. Calculate the sum and compare with expected sum
+3.How to check if array contains a number in Java?
+Ans. If Array Sorted then binary Search Either Linear Search 
+4.How to find largest and smallest number in unsorted array?
+Ans.Run the loop and find the largest and smallest element.
+5.How to find all pairs on integer array whose sum is equal to given number?
+Ans.
+6.How to find repeated numbers in an array if it contains multiple duplicates?
+7.
+
+
+
+
+
+Array best Questions 
+https://javarevisited.blogspot.com/2015/06/top-20-array-interview-questions-and-answers.html
+DP Questions 
+https://medium.com/@codingfreak/top-50-dynamic-programming-practice-problems-4208fed71aa3
+https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview
+
+https://medium.freecodecamp.org/how-to-system-design-dda63ed27e26
+
+ary = Array.new    #=> []
+Array.new(3)       #=> [nil, nil, nil]
+Array.new(3, true) #=> [true, true, true]
+
+empty_table = Array.new(3) { Array.new(3) }
+#=> [[nil, nil, nil], [nil, nil, nil], [nil, nil, nil]]
+
+
+arr = [1, 2, 3, 4, 5, 6]
+arr[2]    #=> 3
+arr[100]  #=> nil
+arr[-3]   #=> 4
+arr[2, 3] #=> [3, 4, 5]
+arr[1..4] #=> [2, 3, 4, 5]
+
+arr.at(1)
+arr.fetch(1)
+arr.first()
+arr.last()
+arr.take(3)
+arr.drop(4)
+arr.length
+arr.count
+arr.empty?
+arr.include?('Konqueror')
+arr.push(5)
+arr << 5
+arr.unshift(4) #Add item beginning of the array
+arr.insert(3,5)
+arr.insert(3, 'orange', 'pear', 'grapefruit') # Multiple Values at once
+arr.pop   #remove last item
+arr.shift #remove first item 
+arr.compact
+arr.delete
+arr.uniq
+arr.select { |a| a > 3 }     #=> [4, 5, 6]
+arr.reject { |a| a < 3 }     #=> [3, 4, 5, 6]
+arr.drop_while { |a| a < 4 }
+
+
+
+
+System Design Interview
+If you haven’t realized it yet, the end result of the exercise above would yield significantly different results. For my own specific background, I might delve really deeply into API design and backend infrastructure. I’d probably explore iPhone-specific problems as well, due to my experience. I’ll talk about how the client interacts with the middle-tier endpoints, how logging would work, how I’d design the backend to ensure uptime, and so on.
+
+
+
+
+*= require_tree .
+ *= require_self
+
+
+
+
+
+https://www.job-hunt.org/job_interviews/answering-why-leaving-current-job.shtml
+6 key considerations before switching software
+1. Consider where to host the software.
+2. Consider what to do with your existing data.
+3. Consider creating a “must-have” list.
+4. Consider the accounting function in your business system.
+5. Consider third party interfaces.
+6. Consider all aspects of training.
+
+
+Some of the most common, and easiest to explain, reasons for leaving a job include:
+1.Desire to learn.
+2.Desire to take on more responsibility.
+3.Desire to take on less responsibility.
+4.Desire to relocate
+5.Desire for a career change.
+6.Desire to gain a new skill or grow a current skill.
+7.Company reorganization has led to change in job content.
+8.Desire for a shorter commute to work.
+9.Desire to improve work/life balance.
+
+
+Most importantly, demonstrate that you are dignified and professional and will not talk disparagingly about another company or boss.
+
+"I am interested in learning more about (something this job includes), and this job provides an opportunity to leverage my current areas of expertise and increase my skills in..."
+"Your focus here is on (something that you like), and I really enjoy doing (whatever that is). So, I expect to increase my enjoyment of my work when I am able to focus more on (that aspect of the job)."
+"I enjoy working as part of a team and am looking for an opportunity to work on an interesting project. This job is part of a team working on a fascinating project, and I would love to join in this work."
+
+
+Current Employer 
+"I’ve enjoyed working with a great group of people at my current employer, but this opportunity in this company fits very well with the direction I want to take my career. 
+I’ve learned a great deal in my current job, but I’m interested in working at [name of employer] based on the great things I have learned about this organization.
+"This job has been a great experience, but growth is limited because the company is relatively small. So, to continue to grow, I need to look elsewhere, and working in this this opportunity looks very interesting to me because…
+
+
+Job Offer
+https://www.fastcompany.com/90291886/see-this-eerie-ghost-town-of-castles-created-by-turkeys-recession
+https://biginterview.com/blog/2012/10/accepting-job-offer.html
+
+1. The Money Question
+2. 2. The Job
+3. 3. The Management
+4. 4. The Culture/Atmosphere
+5. 5. Future Prospects
+
+
+https://www.monster.com/career-advice/article/nervous-about-new-job-1017
+https://www.indeed.com/career-advice/interviewing/how-to-explain-your-reasons-for-leaving-a-job
+
+
+I have some requirement to learn
+
+
+
+https://www.thebalancecareers.com/top-good-reasons-to-quit-your-job-2061010
+https://work.chron.com/make-decision-leave-job-5969.html
+
+
+
+Requirements
+1.Can you make sure that you will give me that 30k by July end.
+2.HR letter for Address proof for SBI Bank.
+3.Salary that you are providing not coming from company account. 
+3.You are not providing salary slips also.
+4.We don't have our linkedin and Facebook page for Our Company.
+5.Good internet facility is not there in IT Office.
+6.What I need you write in that email If I need to revoke that Resignation.
+7.What I shoul write to that fellas to rejct the offer letter.

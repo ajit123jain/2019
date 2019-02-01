@@ -1,0 +1,107 @@
+First
+git clone https://ajit123jain@bitbucket.org/ajit123jain/rails.git
+
+
+How to create seperate user for linux for all other interfaces.
+Diff Between system User and Regular User 
+Min Max user IDs
+
+Kiran Keshav 
+
+
+The 'trollop' gem has been deprecated and has been replaced by 'optimist'.
+If there's a metagem available for your cloud provider, e.g. `fog-aws`,
+you should be using it instead of requiring the full fog collection to avoid
+
+
+fancytulip167
+
+Mana
+User Sign Up
+founder login 
+
+Go through roolbar.com
+Bugs 
+1.Contact Number Validations
+2.Companies controller  
+3.Referral not getting email 
+
+
+Figaro for credentails 
+
+Callback for after_commit and after_save
+
+
+Referral Status what is shows?
+
+
+Figaro
+friendly_id
+
+
+
+
+https://github.com/activerecord-hackery/ransack_demo
+ransack Gem
+sidekiq
+rails admin test with demo
+CanCan 
+will_paginate
+rollbar
+paper trail
+
+autonumeric-rails : for currency
+
+Current User Role 
+Founder : 
+
+
+Documents 
+Roles:
+
+
+User as Founder:
+
+
+What are functionality.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Expenses Type:
+
+01-02-2019
+1.Setup the Mana Project at Avalonlabs
+2.Read Basic Linux Command read and Documented
+3.Gem Document and Rails Documented
+4.Read JS and Html and CSS
+5.Heroku Setup
+6.Memory Footprint
+
+
+
+

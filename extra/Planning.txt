@@ -1,0 +1,177 @@
+1.Print all the tickets 
+2.Read the instruction on Tickets clearly and disscuss with Gautam
+3.See the Flight Video
+4.Collect all the documents 
+5.Wash clothes and Which you want to take make the list 
+6.Read the convocation rules and Ready with all these things ad list down all the things  : 
+7.Hair Cut and Facial Cream  Done 
+ 
+Reading 
+1.Write prime number programme 
+2.Run the migration on DEMO  D
+3.Test all the Demo Graph code and with all test cases
+4.Read the linux books 
+5.Read the Nginx and Unicorn and Set up on local
+6.Complete the PSR code completely and All the small issues from my list
+7.Start the Twitter clone project 
+8.Read the Gems and Setup some Good opensource projects read code and learn 
+9.Kaggle or geeks and Hackerearth Questions 
+
+List all the thing for convocation
+List all the thing for flight
+https://medium.com/praaveen/rails-5-deployment-with-nginx-unicorn-postgress-rbenv-226655e2813b
+
+
+1.Ruby on Rails important Gems for good Work and under standing links and gems.
+
+A.Pundit Gem : this gem is use for create the policy and make your code dry and fast. Pundit provides a set of helpers which guide you in 												 leveraging regular Ruby classes and object oriented design patterns to build a simple, robust and scaleable authorization system.
+								https://github.com/varvet/pundit
+								https://redpanthers.co/authorization-with-pundit-gem/
+B.Paranoia Gem : When your app is using Paranoia, calling destroy on an ActiveRecord object doesn't actually destroy the database record, but just hides it. 1.https://github.com/rubysherpas/paranoia	
+ 					2.https://medium.com/build-acl/soft-deletion-is-actually-pretty-hard-cb434e24825c
+C.Vagrant Gem  : Vagrant is a tool for building and distributing development environments. https://github.com/hashicorp/vagrant
+D.Reek Gem: Reek is a tool that examines Ruby classes, modules and methods and reports any Code Smells it finds.
+E.Sweet alert : https://stackoverflow.com/questions/38416898/rails-4-how-to-get-sweet-alert-confirm-work
+F.Phonelib : Ruby gem for phone validation and formatting using google libphonenumber library data https://github.com/googlei18n/libphonenumber https://github.com/daddyz/phonelib
+G.better_errors : https://github.com/BetterErrors/better_errors  
+Better Errors replaces the standard Rails error page with a much better and more useful error page. It is also usable outside of Rails in any Rack app as Rack middleware.
+H.rails composer : https://github.com/RailsApps/rails-composer 
+I.starategy pattern : the strategy pattern (also known as the policy pattern) is a software design pattern that enables an algorithm's behavior to 	be selected at runtime. 
+J.Citext : For storing case-insensitive data to offer 
+K.Sinatra: https://github.com/sinatra/sinatra    
+L.https://github.com/bkeepers/dotenv : Reading token from the server
+M.lograge : https://github.com/roidrage/lograge
+
+https://www.toptal.com/ruby-on-rails/top-10-mistakes-that-rails-programmers-make
+https://medium.com/@sherryhsu/session-vs-token-based-authentication-11a6c5ac45e4
+https://www.toptal.com/ruby-on-rails/after-two-decades-of-programming-i-use-rails
+
+10 Mistakes What Rails Deverlopers generally does :
+1.Putting too much logic in the controller
+2.Putting too much logic in the view: Draper Gem 
+3.Putting too much logic in the model : POROs 
+4.Using generic helper classes as a dumping ground : Put methods and into  
+5.Using too many gems : https://github.com/sferik/rails_admin It depends on several other 11 gems 
+6.Ignoring your log files:  Honeybadger or New Relic Use eager loading for saving Queries , http://rubyjunky.com/cleaning-up-rails-4-production-logging.html
+7.Lack of automated tests TDD/ BDD/ Cucumber: At least all controller actions test cases should be there to understant future Developers
+8. Blocking on calls to external services Use rDelayed jobs , sidekiq, Resque
+9.Setting up a new development environment would then require a rake db:schema:load rather than the rake db:migrate that most developers rely on.
+10.Don't push your token.rb file	
+
+Jsonwebtoken library is there to get the token : Multiple Device and Scalability
+
+Session Based Authentication: When User logged in We stored his session key in the browser's cookies .Now for each request borwser send cookies to the server.
+
+Most of the modern web applications use JWT for authentication for reasons including scalability and mobile device authentication.
+
+Responders Gems : For responding the user about their task and information about the their task completion. https://github.com/plataformatec/responders
+Haml Gems : Haml is a templating engine for HTML. It's designed to make it both easier and more pleasant to write HTML documents, by eliminating redundancy, reflecting the underlying structure that the document represents, and providing an elegant syntax that's both powerful and easy to understand.4
+Moment Timezone : https://github.com/viclim/moment_timezone-rails
+Uglifier : As a comresser for the Js 
+Wisper : Subscriber and publisher model 
+Auto Session timeout : for messaging to use for timeout 
+ruby racer : for use ruby object in js 
+time_difference : 
+smarter csv:
+Carrierwave : file uploading
+apipie : Apipie for good things 
+Faker : Faker data
+rack-mini profiler : to profile the Queries
+Flame graph: 
+Bcrypt : for the password :  Yes we can use bcrypt
+Rolify: 
+Whenever:
+Sidekiq:
+Statmachine Gem :
+Audit trail :
+tzinfo : for timezone 
+
+This library can be easily integrated with any authentication gem (devise, Authlogic, Clearance) and authorization gem* (CanCanCan, authority, Pundit)
+
+
+What is difference in Mongo and Simple SQL  https://dzone.com/articles/why-mongodb https://www.mongodb.com/scale/managing-distributed-data
+The motivation of the MongoDB language is to implement a data store that provides high performance, high availability, and automatic scaling. MongoDB uses JSON or BSON documents to store data. 
+Pros 
+Document oriented
+High performance
+High availability — Replication
+High scalability – Sharding
+Dynamic — No rigid schema.
+Flexible – field addition/deletion have less or no impact on the application
+Heterogeneous Data
+No Joins
+Distributed
+Data Representation in JSON or BSON
+Geospatial support
+Easy Integration with BigData Hadoop
+Document-based query language that’s nearly as powerful as SQL
+Cloud distributions such as AWS, Microsoft, RedHat,dotCloud and SoftLayer etc:-. In fact, MongoDB is built for the cloud. Its native scale-out architecture, enabled by ‘sharding,’ aligns well with the horizontal scaling and agility afforded by cloud compu
+
+Cons 
+A downside of NoSQL is that most solutions are not as strongly ACID-compliant (Atomic, Consistency, Isolation, Durability) as the more well-established RDBMS systems.
+Complex transaction
+No function or stored procedure exists where you can bind the logic
+
+Good For:
+E-commerce product catalog.
+Blogs and content management.
+Real-time analytics and high-speed logging, caching, and high scalability.
+Configuration management.
+Maintaining location-based data — Geospatial data.
+Mobile and social networking sites.
+Evolving data requirements.
+Loosely coupled objectives — the design may change by over time.
+
+Not So good for 
+Highly transactional systems or where the data model is designed up front.
+Tightly coupled systems
+
+Today’s generation of databases offers application developers lower cost, greater efficiency, and superior performance in comparison to its more traditional relational counterparts. A key driver behind the lower cost is the ability to scale out your system over commodity hardware. Older relational database technology, on the other hand, is expensive to scale because you need to buy a bigger server to meet the greater volume demand.
+
+MongoDB is the leader in a new generation of databases that are designed for scalability. With a technique called “sharding” you are able to easily distribute data and grow your deployment over inexpensive hardware or in the cloud. One of the benefits of scaling with MongoDB is that sharding is automatic and built into the database. This relieves developers of having to build in sharding logic into the application code to scale out the system.
+
+
+ActiveRecord configuration (i.e., relations and validations)
+Simple mutation methods to encapsulate updating a handful of attributes and saving them in the database
+Access wrappers to hide internal model information (e.g., a full_name method that combines first_name and last_name fields in the database)
+Sophisticated queries (i.e., that are more complex than a simple find); generally speaking, you should never use the where method, or any other query-building methods like it, outside of the model class itself
+
+
+
+Ruby On Rails 2 Decades benefits :
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

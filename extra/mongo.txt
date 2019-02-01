@@ -1,0 +1,70 @@
+db.inventory.find( { tags: ["red", "blank"] } )
+db.inventory.find( { tags: { $all: ["red", "blank"] } } )
+db.inventory.find( { tags: "red" } )
+db.inventory.find( { dim_cm: { $gt: 25 } } )
+db.inventory.find( { dim_cm: { $gt: 15, $lt: 20 } } )
+db.inventory.find( { dim_cm: { $elemMatch: { $gt: 22, $lt: 30 } } } )
+db.inventory.find( { "tags": { $size: 3 } } )
+
+Nested Documents collections 
+db.inventory.find( { "instock": { warehouse: "A", qty: 5 } } )
+db.inventory.find( { "instock": { $elemMatch: { qty: 5, warehouse: "A" } } } )
+db.inventory.find( { "instock.qty": { $gt: 10,  $lte: 20 } } )
+db.inventory.find( { "instock.qty": 5, "instock.warehouse": "A" } )
+db.inventory.find( { status: "A" }, { item: 1, status: 1 } )
+
+db.inventory.find( { item : { $exists: false } } )
+db.inventory.find( { item: null } )
+
+
+var myCursor = db.users.find( { type: 2 } );
+
+while (myCursor.hasNext()) {
+   printjson(myCursor.next());
+}
+
+var myCursor =  db.users.find( { type: 2 } );
+
+myCursor.forEach(printjson);
+
+var myCursor = db.users.find().noCursorTimeout();
+you must either close the cursor manually with cursor.close()
+
+Aggregation Pipeline : 
+db.orders.aggregate([{$match:{status: "A"}},{$group:{_id:"$cust_id",total:{$sum: "$amount"}}}])
+db.orders.distinct("cust_id")
+Map Reduce:
+
+
+
+Sql V/S Mongo https://docs.mongodb.com/manual/reference/sql-aggregation-comparison/
+
+db.inpatient_ipd_records.find( {operative_notes : {$exists:true}, $where:'this.operative_notes.length>2'} ).count()
+
+db.orders.aggregate( [
+   { $unwind: "$items" },
+   {
+     $group: {
+        _id: "$cust_id",
+        qty: { $sum: "$items.qty" }
+     }
+   }
+] )
+
+
+db.books.aggregate( [
+   {
+      $project: {
+         title: 1,
+         "author.first": 1,
+         "author.last" : 1,
+         "author.middle": {
+            $cond: {
+               if: { $eq: [ "", "$author.middle" ] },
+               then: "$$REMOVE",
+               else: "$author.middle"
+            }
+         }
+      }
+   }
+] )

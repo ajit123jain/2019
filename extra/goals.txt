@@ -1,0 +1,208 @@
+1.AWS Learning
+2.Android Friend Space Project 
+3. 
+
+
+
+August 
+1.20 Challenges at Geeks for Geeks 
+2.Start Learning Python
+3.Start working on 
+
+
+
+Python : 
+1.Basic Variables 
+2.Basic Operators + - * / %
+3.Data type converter 
+4.
+
+
+Elastic Search 
+1.Introduction
+2.Indexes
+3.Mapping
+4.Dynamic Mapping
+5.Document
+6.Shards 
+7.Replica
+8.Kibbana
+9.Sense
+
+
+
+
+Questions :
+1.What is the real meaning of a cluster.
+2.
+
+
+Understanding :
+1.In one index We can store as many documents as we want 
+2.Index can be stored on multiple shards when node capacity is less than the index capacity
+3.A shard can be stored to any node in the cluster as a seperate entity.
+4.Parallalize Operation across shards 
+5.Replica is a copy of Shard and a Replica can not be reside on the same node where OriginaL Shard prsent 
+6. 
+
+
+
+2018
+Long Term 
+1.Want to become an entrepreneur down the line 5 years
+2.To make family happy each and every moment
+3.Want to become Doner as Helper of needy people 
+
+Short term:
+1.Good Android Developer
+2.Good Team Worker
+3.Good Listener
+4.Good  Communicator
+5.Good Speaker
+6.Improved management skills
+7.Better time management
+8.Digital Marketing
+9.Algorithmic and data structure to become a Data Analyst
+10.Get certified in many fields or courses Digital marketing and 
+11.DataAnalyst and Deep Learning
+
+
+
+Requirements for ROR Developers 
+1.Writing clean, maintainable and efficient code
+2.Designing robust, scalable and secure features
+3.Contributing in all phases of the development lifecycle
+4.Follow best practices (test-driven development, continuous integration, SCRUM, refactoring and code standards)
+5.Drive continuous adoption and integration of relevant new technologies into design
+6.Demonstrable knowledge of front-end technologies such as JavaScript, HTML, CSS and JQuery
+7.Experience developing highly interactive applications
+8.A firm grasp of object oriented analysis and design
+9.Passion for writing great, simple, clean, efficient code
+10.Good knowledge of relational databases
+11.Working knowledge of NoSQL databases
+12.BS/MS degree in Computer Science, Engineering or in related field
+
+
+the willingness to learn; qualified skills; passion for the job.
+
+Coures Base 
+1.Understanding of basic algorithmic concepts
+2.Discuss basic algorithms, how would they find/think/sort
+3.Can they show a wider understanding of databases
+4.Do they have an approach to modelling?
+
+
+Extra Skills 
+1.Do they stay up to date with the latest developments? If so, how? 
+2.Probe for their favourite technical books. 
+3.Who are they following on Twitter, 
+4.which blogs do they turn to?
+5.Are they active on Github?
+6.Do they contribute to any open source software projects? Or take part in Hackathons.
+7.In short, how strong is their intellectual interest in their chosen field? 
+8.How is this demonstrated? Ask for side projects (like game development). Committed, inquisitive candidates will stand out
+
+
+CS Questions :
+1.Using pseudo-code, reverse a String iteratively and recursively
+2.What constitutes a good unit test and what a functional one?
+3.Describe the core principles of a REST API. How is this a different philosophy from RPC?
+4.When do you think is the best time in a project’s lifecycle, to set up its test infrastructure?
+5.What do you expect to find in a regression test suite and why?
+6.What constitutes a good unit test and what a functional one?
+
+
+Most Important :
+1.Experience With Ruby on Rails with specific version or rails and Ruby
+2.MySQL, MongoDB, and PostgreSQL.With Mongo:  Craigslist, eBay, Foursquare, Sourceforge, Viacom, the New York Times with LAMP too
+3.APIS
+4.CLOUD SERVER AWS and Heroku
+ Memcached : Reduce hits on DB
+newrelic, slim, rails footnote Profiling tools using caching with Memcached and auto-scaling using Amazon EC2 
+5.LINUX DISTRIBUTION AND GIT  Capistrano
+6.Testing : experience in RSpec, Capybara, and Cucumber. RSpec and Cucumber are both testing frameworks that simulate actual application. Capybara is a tool that interacts with a website the way a human would (like visiting a URL, clicking a link, typing text into a form and submitting it). It is used to emulate how a user would flow through a website.
+7.Agile Methodology
+8.Project management Tools 
+9.Basecamp, Pivotal Tracker,Scrumpad and Unfuddle Trajectory
+10.FRONT-END EXPERIENCE HTML5, CSS, AJAX, and Javascript frameworks are very helpful.
+11.HTML5, CSS, AJAX, and Javascript frameworks are very helpful.
+12.Why Start up use RoR
+
+
+Need to Improve JavaScriptTest 
+Need to read Regular Expression
+Need to Give Ruby on RailsQuestions Test 
+Need to Read Rails Interview Quesitions for Rails /Html /CSS /JavaScript /Algoithm and Data Structure  
+Understanding the nature of asynchronous programming and its quirks and workarounds
+Knowledge on Hybrid application development platforms such as Electron, Cordova
+
+
+
+Finly 
+YagerBomm Media Pvt. Ltd.
+NKK Inovations 
+Beautiful Code 
+Byte Prophey
+
+
+Required Skill in Technologies for Rails Developer :
+1.Mongo DB and PostGreSql and Mysql and Agreegation and Query Scaling 
+2.Need to read Regular Expression in Mongo
+3.Need to read article on Ruby on Rails Scaling on Medium and Hacknoon
+4.AI and ML Experience Optional 
+5.Pythona and GoLang
+6.Rspec and Sidekiq sample Project and Callback function and Redis and Background Jobs 
+7.Algorithm and DataStructure
+8.Angular JS and JWT and Auth and Node Js 
+9.Ensures cross-browser compatibility 
+10.Nginx and Unicorn RSpec and Resque
+11.CSS With lESS AND SASS
+
+1.Mongo Shell 
+db.collection.insertMany()
+db.collection.insertOne()
+db.inventory.find( { status: "D" } )
+db.inventory.find( { size: { h: 14, w: 21, uom: "cm" } } )  for Finding document with embedded field 
+db.inventory.find( { "size.uom": "in" } )
+db.inventory.find( { tags: "red" } )
+db.inventory.find( { tags: ["red", "blank"] } )        ExactOrder
+
+CRUD Operations 
+1.db.collection.deleteOne()
+2.db.collection.deleteMany()
+3.db.collection.updateOne()
+4.db.collection.updateMany()
+5.db.collection.replaceOnec()
+6.db.inventory.find( { item: "canvas" } )
+7.db.inventory.find( {} )
+8.db.inventory.find( { status: { $in: [ "A", "D" ] } } )
+9.db.inventory.find( { status: "A", qty: { $lt: 30 } } )
+10.db.inventory.find( { $or: [ { status: "A" }, { qty: { $lt: 30 } } ] } )
+11.db.inventory.find( {  status: "A",$or: [ { qty: { $lt: 30 } }, { item: /^p/ } ]} )
+12.db.inventory.find( { "tags": { $size: 3 } } )
+13.db.inventory.find( { dim_cm: { $gt: 15, $lt: 20 } } )
+14.db.inventory.find( { item: null } )
+15.
+
+
+
+
+
+
+
+https://docs.mongodb.com/manual/core/write-operations-atomicity/
+https://docs.mongodb.com/manual/reference/operator/query/regex/#op._S_regex
+
+
+
+
+
+
+
+
+
+
+
+
+
+

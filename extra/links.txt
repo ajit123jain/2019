@@ -1,80 +1,55 @@
-Heroku
-
-Postgres Sql
-
-Devise Gem Documentation
-
+Task assigned
+1.https://www.ludiinc.com/
+2.http://www.doctimelog.com/  DocTime lgo 
+3.https://www.snomed.org
 
 
 
+https://medium.com/rubyinside/powering-your-ruby-rails-development-with-pry-3d5dbd2a8b80
+https://github.com/peatio/peatio
 
-Full Support
-https://www.bogotobogo.com/RubyOnRails/RubyOnRails_Devise_Authentication_Sending_Confirmation_Email_Heroku_Deploy.php
-
-
-With react
-https://www.bogotobogo.com/RubyOnRails/RubyOnRails_Devise_Authentication_Sending_Confirmation_Email_Heroku_Deploy.php
-
-
-Devise Handler
-https://techazzist.wordpress.com/2012/01/01/creating-a-simple-ruby-on-rails-application-using-devise/
+Daily links :
+https://rubygems.org/
+https://www.mkyong.com/mongodb/mongodb-group-count-and-sort-example/
+https://stackoverflow.com/questions/42435584/group-by-age-groups-in-mongo-db
 
 
-Postgres
-https://mherman.org/blog/designing-with-class-sinatra-plus-postgresql-plus-heroku/
+https://infinum.co/the-capsized-eight/a-gem-for-every-occasion-11-great-ruby-libraries-we-use-on-every-project
+https://codebrahma.com/best-gems-for-ruby-on-rails-web-applications/
+https://rubygarage.org/blog/best-ruby-gems-we-use
 
-Heroku
-http://curriculum.railsbridge.org/intro-to-rails/deploying_to_heroku
-
-https://www.codecademy.com/articles/deploy-rails-to-heroku
-
-
-sudo -i -u postgres
-psql
-\q
-
-https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-14-04
-
-Postgres Docs
-http://www.indjango.com/ubuntu-install-postgresql-and-pgadmin/
-
-Devise 
-https://github.com/plataformatec/devise/wiki
-https://www.rubydoc.info/github/plataformatec/devise/master/frames
-https://github.com/plataformatec/devise/wiki/Example-Applications
-https://github.com/plataformatec/devise/wiki/Extensions
+Ruby on Rails Links :
+https://docs.mongodb.com/manual/indexes/
+https://bogomips.org/unicorn/
+https://www.digitalocean.com/community/tutorials/how-to-deploy-a-rails-app-with-unicorn-and-nginx-on-ubuntu-14-04
+https://www.digitalocean.com/community/tutorial_series/how-to-use-capistrano-to-automate-deployments
 
 
-DEVISE_ORM is active_record
+Links Related to AWS 
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html#ec2-connect-to-instance-linux
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html
+https://aws.amazon.com/getting-started/tutorials/launch-a-virtual-machine/
 
-https://www.railstutorial.org/book/modeling_users
-https://github.com/plataformatec/devise/wiki/Example-Applications
-https://www.rubydoc.info/github/plataformatec/devise/master/frames
+STI- single table inheritance
+https://medium.freecodecamp.org/single-table-inheritance-vs-polymorphic-associations-in-rails-af3a07a204f2
 
-1.Task for Today
-A.Good UI for Login And Signup  Done
-B.And Forgot Password and Send Email Instructions  Done 
-C.Email Sending With customization for login and Others   Done  
-Use Rich Text Editor for content
-D.Give Reach Text Editor For Sending Email Content as Html.
-E.Font Size color and UI :
-F.Devise Gem Code Review and Understanding After 10 AM
+MRN             	  Name   	      AGE  				Gender   	  	Registered  	   	Phone                   
+A2:A10001        	C2:C10001   	H2:H10001		  D2:D10001  	 	G2:G10001       	A2:E10001
+A10002:A20001       C10002:C20001   H10002:H20001	  D10002:D20001  	G10002:G20001       A10002:E20001
+A10002:A20001       C10002:C20001   H10002:H20001	  D10002:D20001  	G10002:G20001       A10002:E20001
+A20002:A30001       C20002:C30001   H20002:H30001	  D20002:D30001  	G20002:G30001       A20002:E30001
 
-https://www.youtube.com/watch?v=FPw_Pgeixf4
 
-Learning Points
-1.Devise GEM : 
-2.Simple form
-3.SendGrid
-4.Postgres Sql
-5.Heroku Project Posting
 
-1.Coding 
-2.Ccoocan
-3.
+https://itnext.io/trending-open-source-ruby-on-rails-github-repositories-mid-june-2018-6f92515cc645
+https://www.netguru.co/blog/most-loved-ruby-on-rails-open-source
+https://github.com/ekremkaraca/awesome-rails
+https://rubygarage.org/blog/how-contribute-to-open-source-projects
+https://www.reddit.com/r/ruby/comments/6qcqy1/what_ruby_or_rails_open_source_projects_a/
+https://rubygarage.org/blog/why-open-source-is-good-for-business
 
-1.First month
-2.Knowledge
-
-3.Foxbound
-4.
+1.Complete that issue
+2.Complete that Task for IPD Templates
+3.Go through Cocoon Gem and Add Some Functionality in that 
+4.Money Management
+5.
