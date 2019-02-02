@@ -28,3 +28,7 @@ getent passwd | grep jack User Existence
 getent passwd | wc -l   User count
 
 
+Rails Related command
+1.bundle exex rails db:create
+2.bundle exex rails db:migrate
+3.rails db:seed
