@@ -42,15 +42,17 @@ cd /db/data/log
 tail -f mongodwt_403.log
 
 
-
-
-
-
-
 STEPS TO ACCESS PREPRODUCTION - > PP - PSR
-
 
 To run the unicorn
 
 cd apps/hg_psr_healthgraph
 bundle exec unicorn_rails -c /home/deployer/apps/hg_psr_product/config/unicorn.rb -D -E preproduction
+
+
+https://aws.amazon.com/about-aws/whats-new/2017/09/amazon-ec2-spot-can-now-stop-and-start-your-spot-instances/
+https://serverfault.com/questions/486840/windows-on-ec2-spot-instance-can-i-reboot
+https://www.livemint.com/Industry/qVcnoMJWQRV2P34FFz1GKI/India-panel-wants-localisation-of-cloud-storage-data-in-poss.html
+https://medium.com/tensorflow/introducing-tensorflow-js-machine-learning-in-javascript-bf3eab376db
+https://redis.io/topics/memory-optimization
+https://lethain.com/notes-on-redis-memory-usage/
