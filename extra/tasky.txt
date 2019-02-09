@@ -1,0 +1,62 @@
+01-02-2019
+1.Setup the Mana Project at Avalonlabs
+2.Read Basic Linux Command read and Documented
+3.Gem Document and Rails Documented
+4.Read JS and Html and CSS
+5.Heroku Setup
+6.Memory Footprint
+
+02-02-2019
+1.Create Project using all the gem Done
+2.Start Expense Module Done
+3.Go through all the Mana Docs Over the internet for getting knowledge about the mana 
+4.Reading all the Gems and Documents Done
+5.Go Thorugh Postgresql Project Airline Database Management system and Read What is Primary Key Done
+6.Atleast Go through their Setup Video on Youtube Done
+
+03-02-2019
+1.Go through all the models of Mana
+2.Create Dummy Data for Mana and Rails Admin Test
+3.Write Down all next week task
+4.Read the mana's Code
+
+04-02-2019
+1.Go through all code when user not loggedin
+2.Go through all the shortcuts for VSCode
+3.Write down all the Questions related to Mana
+4.Write down all the Questions related to Project structure
+5.Paper Trail Done
+3.Simple Form  Done
+2.Heroku Process 
+4.Asset Pipeline Done
+5.Callbacks Done 
+6.Cocoon Done 
+7.Sidekiq Done
+
+Sprocket process for assests
+
+05-02-2019
+1.Read the Gem
+2.Active Record Associations
+
+06-02-2019
+1.Requirements for startup Event
+2.Migration for Company Event Table
+3.
+
+07-02-2019
+1.Crud Start
+2.Create and Edit Operation Done
+
+08-02-2019
+1.Complete Crud Done
+2.Emails Option for Edit and New for approval Done
+3.Ui Fixes for Company events  Done
+4.Find Short cut Commands for Vs Code and Vs Code Customizations 
+5.Start Expense Project 
+
+08-02-2019
+1.
+2.
+3.
+4.

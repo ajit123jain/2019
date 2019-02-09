@@ -64,65 +64,8 @@ User as Founder:
 
 
 What are functionality.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Expenses Type:
-
-01-02-2019
-1.Setup the Mana Project at Avalonlabs
-2.Read Basic Linux Command read and Documented
-3.Gem Document and Rails Documented
-4.Read JS and Html and CSS
-5.Heroku Setup
-6.Memory Footprint
-
-02-02-2019
-1.Create Project using all the gem Done
-2.Start Expense Module Done
-3.Go through all the Mana Docs Over the internet for getting knowledge about the mana 
-4.Reading all the Gems and Documents Done
-5.Go Thorugh Postgresql Project Airline Database Management system and Read What is Primary Key Done
-6.Atleast Go through their Setup Video on Youtube Done
-
-03-02-2019
-1.Go through all the models of Mana
-2.Create Dummy Data for Mana and Rails Admin Test
-3.Write Down all next week task
-4.Read the mana's Code
-
-04-02-2019
-1.Go all code when user not loggedin
-2.Go through all the shortcuts for VSCode
-3.
-
-
-Probles Through Reading
+Problems Through Reading
 1.What is the index and How they are beneficial and Is it important to have in each and every table
 2.How to use Sql Queries in Our Rails product
 3.OverWriting the Naming Convention
@@ -136,7 +79,41 @@ A.A non login user can see rating and do rating.
 Read till 14 Scope Start from scope
 
 
+Sidekiq Rack dashboard
+https://www.youtube.com/watch?v=dGpbYqP5lr8&index=2&list=PLjeHh2LSCFrWGT5uVjUuFKAcrcj5kSai1
+
+Learning Console
+rails c --sandbox
+
+puts "hi"
+$LOAD_PATH.unshift
+'/home/vijay/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/awesome_print-1.8.0/lib/awesome_print.rb'
+require 'awesome_print'
+AwesomePrint.irb!
 
 
+heroku logs --tail
+https://devcenter.heroku.com/articles/getting-started-with-ruby#start-a-console
 
+
+shortcuts
+1.https://www.dofactory.com/reference/visual-studio-shortcuts
+
+UI Design for Rails Project
+1.https://medium.freecodecamp.org/add-bootstrap-to-your-ruby-on-rails-project-8d76d70d0e3b
+https://getbootstrap.com/docs/4.1/getting-started/introduction/
+https://medium.com/@abhishek.kanojia/how-to-add-bootstrap-and-jquery-to-rails-application-ec18a89805e5
+https://hackernoon.com/using-bootstrap-in-rails-5-969cbe423926
+https://mixandgo.com/learn/how-to-install-bootstrap-4-in-rails
+
+Add Gem 
+1.gem 'bootstrap'
+2.gem 'jquery-rails'
+3.
+
+https://medium.com/luanotes/build-instagram-by-ruby-on-rails-part-2-d70b44f5c7e6
+
+https://github.com/stimulusjs/stimulus
+turbolinks
+webpacker
 
